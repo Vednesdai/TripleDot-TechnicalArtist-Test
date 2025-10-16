@@ -1,0 +1,17 @@
+Hello TripleDot Studio !
+Here are my Thought on the test I just finished,
+
+I Started thinking about it and managing organization Tuesday at 9pm,
+Using my evening to create folders and thinking about how to do it.
+
+At the end I spent a day and a half on it, pretty much 14 hours to make it.
+My favorite part was making some code to link visuals and effects.
+
+Here is how I breaked down my process :
+
+For every task I firstly check the template on PhotoShop, then I extract all the ressources
+I will use to make it on Unity. If needed I make some adjustement for exemple for the pressed
+buttons.
+Then I import everything on Unity, make some folder to maintain organization and adjust texture
+resolution to optimize the game.
+
