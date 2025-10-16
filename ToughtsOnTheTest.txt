@@ -24,7 +24,7 @@ This shader helped me to make a second blurred background layer, primarily desig
 Starting Task 2 without the blur shader was a great decision because it was something I was most apprehensive about.
 Task 2 primarily involved creating a reusable layout for a future menu, dividing it into slots, 
 and ensuring everything was easily understandable. 
-Since I didn't have the blur shader to work on, I decided to use Figma to create an animation for the switch buttons (link to Figma). I find this to be an effective way to produce quick animations. 
+Since I didn't have the blur shader to work on, I decided to use Figma to create an animation for the switch buttons (https://www.figma.com/design/z8gMbPHZF9neQWEefVeK09/Thomas-Fourie---Tech-Artist?node-id=95-30&t=FeBEOoAoLr24yGDm-1). I find this to be an effective way to produce quick animations. 
 
 Additionally, I linked all my text to my Prefabs to make them localization-friendly. 
 I also created a French version, which I have deactivated for your use.
@@ -39,7 +39,6 @@ which adds a bit of context for the player when they exit this window.
 Finally, I made some enhancements to make everything stand out more, 
 including adding extra animations and adjusting the existing ones. 
 To wrap up, I reviewed everything once again to ensure that all the names and structures were clear and organized.
-
 
 I had a great time creating this, 
 and I hope it meets your expectations. 
