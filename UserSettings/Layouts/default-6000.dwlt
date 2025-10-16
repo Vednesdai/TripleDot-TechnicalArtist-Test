@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Simulator
+  m_Title: Hierarchy
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 119
+  controlID: 128
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -539,7 +539,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 1}
-  m_TargetSize: {x: 2048, y: 2732}
+  m_TargetSize: {x: 1284, y: 2778}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -560,11 +560,11 @@ MonoBehaviour:
     - '{}'
     - '{}'
     - '{}'
-    scale: 25
+    scale: 24
     fitToScreenEnabled: 0
     rotationDegree: 0
     highlightSafeAreaEnabled: 0
-    friendlyName: Apple iPad Pro 12.9 (2018)
+    friendlyName: Apple iPhone 13 Pro Max
     screenIndex: 0
     networkReachability: 1
     systemLanguage: 10
@@ -700,7 +700,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Fonts/Lato
+    - Assets/Prefabs/Bottom_Bar
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -718,7 +718,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b8c50000
     m_LastClickedID: 50616
-    m_ExpandedIDs: 00000000a4c50000a6c50000a8c50000aac50000acc50000aec50000b0c50000b2c50000b4c50000
+    m_ExpandedIDs: 00000000b4c50000b6c50000b8c50000bac50000bcc50000bec50000c0c50000c2c50000c4c50000c6c50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -747,7 +747,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000a4c50000a6c50000a8c50000aac50000acc50000aec50000b0c50000b2c5000058c60000d0ca0000
+    m_ExpandedIDs: ffffffff00000000b4c50000b6c50000b8c50000bac50000bcc50000bec50000c0c50000c2c50000c4c50000c6c5000074c600001ed60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1370,9 +1370,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.9628284, y: 5.1532645, z: 89.57277}
+    m_Target: {x: -0.8996036, y: 0.17147824, z: 89.57277}
     speed: 2
-    m_Value: {x: -0.9628284, y: 5.1532645, z: 89.57277}
+    m_Value: {x: 0, y: 2779, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1400,7 +1400,7 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
@@ -1408,27 +1408,27 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.016176395, y: -0.041386485, z: -0.00066871475, w: -0.99902356}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0.01617621, y: -0.041386012, z: -0.0006687071, w: -0.9990121}
+    m_Value: {x: 0.014690323, y: 0.00059676514, z: 0.000012060031, w: -0.999892}
   m_Size:
-    m_Target: 1.3873864
+    m_Target: 4.79956
     speed: 2
-    m_Value: 1.3873864
+    m_Value: 255.9147
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -1497,9 +1497,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 38efffff
-      m_LastClickedID: -4296
-      m_ExpandedIDs: 0afbffffcabe0000f8be0000
+      m_SelectedIDs: acbe0000
+      m_LastClickedID: 48812
+      m_ExpandedIDs: 0afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

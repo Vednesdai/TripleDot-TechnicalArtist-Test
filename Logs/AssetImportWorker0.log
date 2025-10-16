@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.7f1-2eb0c79396db' branch; Version is '6000.2.7f2 (2b518236b676) revision 2838914'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'fr' Physical Memory: 16308 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-thoma" at "2025-10-16T14:11:51.8806794Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-16T14:05:25Z
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-thoma" at "2025-10-16T14:05:25.1439195Z"
+Date: 2025-10-16T14:11:51Z
 
 COMMAND LINE ARGUMENTS:
 G:\editor\6000.2.7f2\Editor\Unity.exe
@@ -17,7 +17,7 @@ G:/unitygames/TripleDot-Technical-Artist-Test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64093
+65063
 -licensingIpc
 LicenseClient-thoma
 -job-worker-count
@@ -65,12 +65,12 @@ G:/unitygames/TripleDot-Technical-Artist-Test
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20816]  Target information:
+Player connection [12580]  Target information:
 
-Player connection [20816]  * "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 3437152963 [EditorId] 3437152963 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J59DT6P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12580]  * "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 3383236811 [EditorId] 3383236811 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J59DT6P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [20816] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [20816] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12580] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12580] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,13 +79,13 @@ Input System module state changed to: Initialized.
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              fff0e515e0b64c0fb163da585e11dbde
+  Session Id:              32a273e4e96f4032a51774b5bd7387df
   Correlation Id:          a50fd7df5d57e6ca68b4075e250eaec6
-  External correlation Id: 3625140280547527605
+  External correlation Id: 2825119587199184891
   Machine Id:              yXuKLFvH62t/KfWeRkLTThiUxm0=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-thoma" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-thoma-notifications" at "2025-10-16T14:05:25.1894627Z"
-[Licensing::Module] Licensing Background thread has ended after 0.05s
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-thoma-notifications" at "2025-10-16T14:11:51.9237153Z"
+[Licensing::Module] Licensing Background thread has ended after 0.04s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -93,7 +93,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 11.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.7f2 (2b518236b676)
 [Subsystems] Discovering subsystems at path G:/editor/6000.2.7f2/Editor/Data/Resources/UnitySubsystems
@@ -109,7 +109,7 @@ Initialize mono
 Mono path[0] = 'G:/editor/6000.2.7f2/Editor/Data/Managed'
 Mono path[1] = 'G:/editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'G:/editor/6000.2.7f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: G:/editor/6000.2.7f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
@@ -122,44 +122,44 @@ Register platform support module: G:/editor/6000.2.7f2/Editor/Data/PlaybackEngin
 Register platform support module: G:/editor/6000.2.7f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: G:/editor/6000.2.7f2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.007931 seconds.
-- Loaded All Assemblies, in  0.469 seconds
+Registered in 0.004496 seconds.
+- Loaded All Assemblies, in  0.421 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 283 ms
+Android Extension - Scanning For ADB Devices 266 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.707 seconds
-Domain Reload Profiling: 1175ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  0.710 seconds
+Domain Reload Profiling: 1131ms
+	BeginReloadAssembly (136ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
+	RebuildCommonClasses (42ms)
 	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (201ms)
-		LoadAssemblies (147ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (136ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (197ms)
-			TypeCache.Refresh (194ms)
-				TypeCache.ScanAssembly (180ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (158ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (707ms)
+	FinalizeReload (710ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (652ms)
+		SetupLoadedEditorAssemblies (659ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (405ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (123ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			InitializePlatformSupportModulesInManaged (384ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -170,7 +170,7 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.973 seconds
+- Loaded All Assemblies, in  0.894 seconds
 Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -180,35 +180,35 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.832 seconds
-Domain Reload Profiling: 1804ms
-	BeginReloadAssembly (199ms)
+- Finished resetting the current domain, in  0.808 seconds
+Domain Reload Profiling: 1701ms
+	BeginReloadAssembly (189ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
+		CreateAndSetChildDomain (35ms)
 	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (683ms)
-		LoadAssemblies (459ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (612ms)
+		LoadAssemblies (382ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (335ms)
-			TypeCache.Refresh (249ms)
-				TypeCache.ScanAssembly (227ms)
-			BuildScriptInfoCaches (69ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (833ms)
+		AnalyzeDomain (334ms)
+			TypeCache.Refresh (253ms)
+				TypeCache.ScanAssembly (231ms)
+			BuildScriptInfoCaches (65ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (808ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (689ms)
+		SetupLoadedEditorAssemblies (659ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
+			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (149ms)
-			ProcessInitializeOnLoadAttributes (465ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (440ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -225,67 +225,225 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7222 unused Assets / (7.2 MB). Loaded Objects now: 7814.
-Memory consumption went from 146.5 MB to 139.3 MB.
-Total: 11.107900 ms (FindLiveObjects: 1.093600 ms CreateObjectMapping: 0.566400 ms MarkObjects: 5.278400 ms  DeleteObjects: 4.168200 ms)
+Unloading 7222 unused Assets / (7.8 MB). Loaded Objects now: 7814.
+Memory consumption went from 142.7 MB to 134.9 MB.
+Total: 13.824500 ms (FindLiveObjects: 1.167200 ms CreateObjectMapping: 1.059600 ms MarkObjects: 6.358800 ms  DeleteObjects: 5.236700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 80983.915541 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb33f1d7482629c433d59644391e4c35') in 0.1182426 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.911101 seconds.
-  path: Assets/Fonts/Lato/Lato-Black-BlueUnderlayer 1.asset
+  Time since last request: 81370.049731 seconds.
+  path: Assets/Fonts/Lato/Lato-Black-RedUnderlayer.asset
   artifactKey: Guid(eb4933b27054da049b489a04ef70eb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Lato/Lato-Black-BlueUnderlayer 1.asset using Guid(eb4933b27054da049b489a04ef70eb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc68c2ff21bba54162507ae7dc097ec7') in 0.0373747 seconds
+Start importing Assets/Fonts/Lato/Lato-Black-RedUnderlayer.asset using Guid(eb4933b27054da049b489a04ef70eb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b10420815f5e6d2dac7556581fc437d') in 0.1103082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.933 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.776 seconds
+Domain Reload Profiling: 1712ms
+	BeginReloadAssembly (269ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (555ms)
+		LoadAssemblies (435ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (248ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (222ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (777ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (617ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7220 unused Assets / (7.5 MB). Loaded Objects now: 7866.
+Memory consumption went from 145.0 MB to 137.5 MB.
+Total: 13.661200 ms (FindLiveObjects: 1.249300 ms CreateObjectMapping: 1.112800 ms MarkObjects: 6.662600 ms  DeleteObjects: 4.635000 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.817 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.839 seconds
+Domain Reload Profiling: 1659ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (502ms)
+		LoadAssemblies (375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (212ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (839ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (663ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (424ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7220 unused Assets / (7.3 MB). Loaded Objects now: 7872.
+Memory consumption went from 145.0 MB to 137.8 MB.
+Total: 15.413200 ms (FindLiveObjects: 1.504100 ms CreateObjectMapping: 1.234000 ms MarkObjects: 7.341800 ms  DeleteObjects: 5.331400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 463.836228 seconds.
+  path: Assets/Prefabs/Bottom_Bar/BottomBar_Selected_Prefab.prefab
+  artifactKey: Guid(ee6905ee91146f746aa4d4535c7c16e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bottom_Bar/BottomBar_Selected_Prefab.prefab using Guid(ee6905ee91146f746aa4d4535c7c16e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d0312bcd94d72d32111ee74afcf7a55') in 0.068972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.209694 seconds.
+  path: Assets/Fonts/Lato/Lato-Black-BlueUnderlayer.asset
+  artifactKey: Guid(0cc54109f8646944ca200c7e746730cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Lato/Lato-Black-BlueUnderlayer.asset using Guid(0cc54109f8646944ca200c7e746730cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38c898bd1f77587d81a2468ad71d9bc2') in 0.0852395 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.397667 seconds.
-  path: Assets/Locales/Game Labels_en.asset
-  artifactKey: Guid(9f7e0e80e6c34484e85ba2b22b1e5e73) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Locales/Game Labels_en.asset using Guid(9f7e0e80e6c34484e85ba2b22b1e5e73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '646032b77b955e5ba9654e557f2886af') in 0.1981596 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Fonts/Lato/Lato-Black-BlueUnderlayer 1.asset
-  artifactKey: Guid(eb4933b27054da049b489a04ef70eb2f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Fonts/Lato/Lato-Black-BlueUnderlayer 1.asset using Guid(eb4933b27054da049b489a04ef70eb2f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b21a620e2451acb795fa19e633187055') in 0.0644001 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.147964 seconds.
-  path: Assets/Fonts/Lato/Lato-Black-RedUnderlayer.asset
-  artifactKey: Guid(eb4933b27054da049b489a04ef70eb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Lato/Lato-Black-RedUnderlayer.asset using Guid(eb4933b27054da049b489a04ef70eb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f10332b7a94951b74a08fb8fc67e952c') in 0.036541 seconds
+  Time since last request: 127.299909 seconds.
+  path: Assets/Fonts/Lato/Lato-Black-BlueUnderlayer.asset
+  artifactKey: Guid(0cc54109f8646944ca200c7e746730cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Lato/Lato-Black-BlueUnderlayer.asset using Guid(0cc54109f8646944ca200c7e746730cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c639bcbca7196af6202ed0069189f66c') in 0.0233618 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.869463 seconds.
-  path: Assets/Fonts/Lato/Lato-Black-RedUnderlayer.asset
-  artifactKey: Guid(eb4933b27054da049b489a04ef70eb2f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Fonts/Lato/Lato-Black-RedUnderlayer.asset using Guid(eb4933b27054da049b489a04ef70eb2f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8354158504f7aad499f8427f3fc57251') in 0.0269467 seconds
+  Time since last request: 6.427131 seconds.
+  path: Assets/Fonts/Lato/Lato-Black-BlueUnderlayer 1.asset
+  artifactKey: Guid(741e0fdc67dd0234981eecf6c6987c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Lato/Lato-Black-BlueUnderlayer 1.asset using Guid(741e0fdc67dd0234981eecf6c6987c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4c56272a02197dfc7a4889bfaa26740') in 0.0266253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.016917 seconds.
+  path: Assets/Scenes/Home.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Home.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a9e7cb52d87d5f03607774457ae3577') in 0.1999053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Fonts/Lato/Lato-Black-BlueUnderlayer.asset
+  artifactKey: Guid(0cc54109f8646944ca200c7e746730cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Lato/Lato-Black-BlueUnderlayer.asset using Guid(0cc54109f8646944ca200c7e746730cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17ab1d61c6b45d7bd408ba1cd9a91b11') in 0.0933353 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 66.488267 seconds.
-  path: Assets/Fonts/Lato/Lato-Black-RedUnderlayer.asset
-  artifactKey: Guid(eb4933b27054da049b489a04ef70eb2f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Fonts/Lato/Lato-Black-RedUnderlayer.asset using Guid(eb4933b27054da049b489a04ef70eb2f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de2b95f2cfc0764c90988d52ab05e13e') in 0.0261658 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fonts/Yorkie/Yorkie-SemiBold-UnderLayer.asset
+  artifactKey: Guid(54516edc873b51d46b9f1261c2aceb61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Yorkie/Yorkie-SemiBold-UnderLayer.asset using Guid(54516edc873b51d46b9f1261c2aceb61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81af79178d580cd9f1861e85556e379a') in 0.0285242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.575169 seconds.
+  path: Assets/Fonts/Lato/Lato-Black-DarkBlueUnderlayer.asset
+  artifactKey: Guid(0cc54109f8646944ca200c7e746730cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Lato/Lato-Black-DarkBlueUnderlayer.asset using Guid(0cc54109f8646944ca200c7e746730cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c25b9bdcb9bf2be2e800d46cea0dc9ac') in 0.048386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.729998 seconds.
+  path: Assets/Fonts/Lato/Lato-Black-DarkBlueUnderlayer.asset
+  artifactKey: Guid(0cc54109f8646944ca200c7e746730cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Lato/Lato-Black-DarkBlueUnderlayer.asset using Guid(0cc54109f8646944ca200c7e746730cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f5a46ba73cb16185186a5cd9a787816') in 0.0372788 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
