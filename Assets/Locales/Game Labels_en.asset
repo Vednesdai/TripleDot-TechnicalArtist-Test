@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Game Labels_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 1fdca2158f117f847a0ccbf30564f75c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 27990548480
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 311793934336
+    m_Localized: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 377862610944
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 433055457280
+    m_Localized: Notification
+    m_Metadata:
+      m_Items: []
+  - m_Id: 514458509312
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 616606588928
+    m_Localized: T&C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 743979212800
+    m_Localized: Privacy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 890402365440
+    m_Localized: Support
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1697919131648
+    m_Localized: Vibration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2743181631488
+    m_Localized: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2790350774272
+    m_Localized: Home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2904452620288
+    m_Localized: Book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34644638425088
+    m_Localized: Win
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
