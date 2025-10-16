@@ -1,17 +1,49 @@
 Hello TripleDot Studio !
-Here are my Thought on the test I just finished,
+Here are my thoughts on the test I just completed.
 
-I Started thinking about it and managing organization Tuesday at 9pm,
-Using my evening to create folders and thinking about how to do it.
+I started thinking about managing organization on Tuesday at 9 PM. 
+I used my evening to create folders and plan how to do it.
 
-At the end I spent a day and a half on it, pretty much 14 hours to make it.
-My favorite part was making some code to link visuals and effects.
+In total, I spent a day and a half on it, approximately 14 hours to complete the project. 
+My favorite part was writing code to connect visuals and effects.
 
-Here is how I breaked down my process :
+Here is how I broke down my process:
 
-For every task I firstly check the template on PhotoShop, then I extract all the ressources
-I will use to make it on Unity. If needed I make some adjustement for exemple for the pressed
-buttons.
-Then I import everything on Unity, make some folder to maintain organization and adjust texture
-resolution to optimize the game.
+For each task, I first checked the template in Photoshop. 
+Then, I extracted all the resources I used to create it in Unity. 
+If necessary, I made some adjustments (for example, for the pressed buttons). 
+After that, I imported everything into Unity, organized the resources into folders, 
+and adjusted the texture resolution to optimize the game.
 
+For Task 1, the main challenge was configuring my layout properly, 
+as a mistake could lead to needing to redo my work multiple times. 
+To achieve a truly responsive design, I decided to create the blur shader directly from this point. 
+I reused and modified a shader from one of my previous projects. 
+This shader helped me to make a second blurred background layer, primarily designed for tablets.
+
+Starting Task 2 without the blur shader was a great decision because it was something I was most apprehensive about.
+Task 2 primarily involved creating a reusable layout for a future menu, dividing it into slots, 
+and ensuring everything was easily understandable. 
+Since I didn't have the blur shader to work on, I decided to use Figma to create an animation for the switch buttons (link to Figma). I find this to be an effective way to produce quick animations. 
+
+Additionally, I linked all my text to my Prefabs to make them localization-friendly. 
+I also created a French version, which I have deactivated for your use.
+
+I started Task 3, which was really fun to create. 
+I hadn't had much opportunity to work with particles and effects in my previous project, 
+so I found it quite enjoyable!
+
+I decided to link the gold and stars earned to the main menu to update the player stats after finishing each level, 
+which adds a bit of context for the player when they exit this window.
+
+Finally, I made some enhancements to make everything stand out more, 
+including adding extra animations and adjusting the existing ones. 
+To wrap up, I reviewed everything once again to ensure that all the names and structures were clear and organized.
+
+
+I had a great time creating this, 
+and I hope it meets your expectations. 
+
+Looking forward to your response. 
+Thank you for reading, 
+Thomas Fourie.
