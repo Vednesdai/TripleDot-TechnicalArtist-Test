@@ -34,8 +34,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpAmt: 0
-    - _Size: 10
+    - _Size: 6.528048
     m_Colors:
-    - _Color: {r: 0.27450982, g: 0.27450982, b: 0.27450982, a: 0.56078434}
+    - _Color: {r: 0.5263965, g: 0.5263965, b: 0.5263965, a: 0.56078434}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
